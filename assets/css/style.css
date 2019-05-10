@@ -12,13 +12,13 @@ body * {
 }
 
 h1 {
-  font-weight: 800;
+  font-weight: 500;
   font-size: 3.75em;
   margin-bottom: 0.25em;
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 300;
   font-size: 2.5em;
 }
 
@@ -81,8 +81,8 @@ h5 {
 
 footer {
   padding: 3.125rem;
-    background-color:#1e1a13;
-color: #ffffff;
+  background-color:#1e1a13;
+  color: #ffffff;
 }
 
 .centrado {
@@ -107,6 +107,7 @@ color: #ffffff;
   width: 10%;
   display: inline-block;
 }
+
 .content{
 width:55%;
 margin: auto;
@@ -151,9 +152,9 @@ footer i {
   padding-top: 4.5em;
   padding-bottom: : 8em;
 }
- .desc-section div{
+.desc-section div{
    display: inline-block;
-   margin-right: 10%;
+   margin-right: 5%;
 
  }
 .desc-section p{
@@ -164,27 +165,54 @@ padding-top: 2em;
 padding-bottom: : 2em;
 
 }
-
 .charla-texto  {
-  width: 35%;
+  min-width: 80%;
   margin-left: 10%;
   margin-right: 5%;
   color: #ffffff;
   margin-bottom: 10%;
+  display: inline-block;
 
 }
+.charla-texto div {
+  display: inline-block;
+  width: 40%;
+}
+
+.charla-texto p {
+  text-align: left;
+  display: inline-block;
+}
+
+.charla-texto img{
+  display: inline-block;
+}
+
 .iguana1{
-  width: 400px;
+  width: 350px;
   max-height: 237px;
-  margin-left: 15px;
   background-color: #000000;
-  margin-bottom: 5%;
+  display: inline-block;
+  align=left;
 }
 
 .icons-section{
   background-color: #1e1a13;
   color:  #ffffff;
-
+  font-weight: 300;
+}
+.icons-section p{
+  padding-top: 20px;
+}
+.icons-section h2{
+  padding-top: 20px;
+}
+.icons-section div{
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 25%;
 }
 .im{
   background-color: #000000;
